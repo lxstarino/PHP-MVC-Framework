@@ -1,7 +1,6 @@
 <?php 
 
 namespace app\controller;
-use app\models\ProfileModel;
 use app\middleware\AuthMiddleware;
 
 class SiteController extends BaseController {
