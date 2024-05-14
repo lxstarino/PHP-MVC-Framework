@@ -3,7 +3,6 @@
 namespace app\controller;
 
 use app\models\LoginModel;
-use app\models\RegistrationModel;
 use app\middleware\AuthMiddleware;
 
 class AuthController extends BaseController {
