@@ -1,0 +1,55 @@
+
+[data-color-mode=light][data-light-theme*=dark], [data-color-mode=dark][data-dark-theme*=dark]{
+    --background: #0c0c0c;
+    --second-background: #141414;
+    --third-background: #1eba3d;
+    --foreground: #ffffff;
+    --second-foreground: #FAFAFA99;
+    --third-foreground: #ffffff;
+    --border: #242424;
+    --item-selected: #2c84f4;
+    --items-hover: #242424;
+    --btn-primary: #2c84f4;
+    --btn-primary-hover: #165ebc;
+    --btn-secondary: #A3A3A3;
+    --btn-secondary-hover: #898989;
+    --btn-danger: #f62f2f;
+    --btn-danger-hover: #f21919;
+    --btn-confirm: #238636;
+    --btn-confirm-hover: #1eba3d;
+    --alert-danger-bg:  #ef9ca4;
+    --alert-danger-color: #6a1a21;
+    --alert-info-bg:  #7BADC5;
+    --alert-info-color: #1A5E7F;
+    --link: #60A5FA;
+    --filter: invert(95%) sepia(0%) saturate(0%) hue-rotate(186deg) brightness(106%) contrast(106%);
+}
+
+[data-color-mode=light][data-light-theme*=light], [data-color-mode=dark][data-dark-theme*=light]{
+    --background: #ffffff;
+    --second-background: #eceef2;
+    --third-background: #1eba3d;
+    --foreground: #000000;
+    --second-foreground: #09090B99;
+    --third-foreground: #ffffff;
+    --border: #A3A3A3;
+    --item-selected: #2c84f4;
+    --items-hover: #f6f8fa;
+    --btn-primary: #2c84f4;
+    --btn-primary-hover: #165ebc;
+    --btn-secondary: #A3A3A3;
+    --btn-secondary-hover: #898989;
+    --btn-danger: #f62f2f;
+    --btn-danger-hover: #f21919;
+    --btn-confirm: #238636;
+    --btn-confirm-hover: #1eba3d;
+    --alert-danger-bg:  #ef9ca4;
+    --alert-danger-color: #6a1a21;
+    --alert-info-bg:  #7BADC5;
+    --alert-info-color: #1A5E7F;
+    --link: #60A5FA;
+    --filter: invert(0%) sepia(4%) saturate(2%) hue-rotate(66deg) brightness(107%) contrast(100%);
+}
+
+
+

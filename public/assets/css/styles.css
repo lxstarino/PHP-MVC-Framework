@@ -1,0 +1,503 @@
+.form-control{
+    padding: 9px 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    background: var(--background);
+    color: var(--foreground);
+    border: 1px solid var(--border);
+}
+
+.form-control:hover{
+    transition: .3s;
+    background: var(--second-background);
+}
+
+.form-control:focus{
+    transition: .3s;
+    background: var(--second-background);
+    border: 1px solid var(--item-selected);
+}
+
+.btn{
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 9px 10px;
+}
+
+.btn-secondary{
+    background: var(--btn-secondary);
+    color: var(--third-foreground);
+    border: 0px;
+}
+
+.btn-secondary:hover{
+    transition: .3s;
+    background: var(--btn-secondary-hover);
+}
+
+.btn-confirm{
+    background: var(--btn-confirm);
+    color: var(--third-foreground);
+    border: 0px;
+}
+
+.btn-confirm:hover{
+    transition: .3s;
+    background: var(--btn-confirm-hover);
+}
+
+.btn-primary{
+    background: var(--btn-primary);
+    color: var(--third-foreground);
+    border: 0px;
+}
+
+.btn-primary:hover{
+    transition: .3s;
+    background: var(--btn-primary-hover);
+}
+
+.btn-danger{
+    background: var(--btn-danger);
+    color: var(--third-foreground);
+    border: 0px;
+}
+
+.btn-danger:hover{
+    transition: .3s;
+    background: var(--btn-danger-hover);
+}
+
+.item{
+    color: var(--foreground);
+    min-width: 200px;
+}
+
+.item-hover:hover{
+    background: var(--items-hover);
+}
+
+.item-selected{
+    background: var(--item-selected);
+    color: var(--third-foreground);
+    user-select: none;
+    pointer-events: none;
+}
+
+.item-selected-2{
+    background: var(--second-background);
+    user-select: none;
+    pointer-events: none;
+}
+
+.item-selected-border-left{
+    border-left: 3px solid var(--item-selected);
+}
+
+.item-border-radius-first:first-child{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.item-border-radius-last:last-child{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom: 0!important;
+}
+
+.alert{
+    display: block;
+    padding: 12px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.alert-danger{
+    background-color: var(--alert-danger-bg);
+    color: var(--alert-danger-color);
+}
+
+.alert-info{
+    background-color: var(--alert-info-bg);
+    color: var(--alert-info-color);
+}
+
+.border-radius-4{
+    border-radius: 4px;
+}
+
+.border-radius-8{
+    border-radius: 8px;
+}
+
+.border-radius-16{
+    border-radius: 16px;
+}
+
+.border-radius-32{
+    border-radius: 32px;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.container-xxl{
+    max-width: 1280px;
+}
+
+.container-xl{
+    max-width: 1028px;
+}
+
+.container-l{  
+    max-width: 728px;
+}
+
+.container-m{
+    max-width: 486px;
+}
+
+.center-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mt-4{
+    margin-top: 4px;
+}
+
+.mt-8{
+    margin-top: 8px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mr-4{
+    margin-right: 4px;
+}
+
+.mr-8{
+    margin-right: 8px;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.mr-32{
+    margin-right: 32px;
+}
+
+.ml-4{
+    margin-left: 4px;
+}
+
+.ml-8{
+    margin-left: 8px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.ml-32{
+    margin-left: 32px;
+}
+
+.m-4{
+    margin: 4px;
+}
+
+.m-8{
+    margin: 8px;
+}
+
+.m-16{
+    margin: 16px;
+}
+
+.m-32{
+    margin: 32px;
+}
+
+.pdt-4{
+    padding-top: 4px;
+}
+
+.pdt-8{
+    padding-top: 8px;
+}
+
+.pdt-16{
+    padding-top: 16px;
+}
+
+.pdt-32{
+    padding-top: 32px;
+}
+
+.pdb-4{
+    padding-bottom: 4px;
+}
+
+.pdb-8{
+    padding-bottom: 8px;
+}
+
+.pdb-16{
+    padding-bottom: 16px;
+}
+
+.pdb-32{
+    padding-bottom: 32px;
+}
+
+.pdr-4{
+    padding-right: 4px;
+}
+
+.pdr-8{
+    padding-right: 8px;
+}
+
+.pdr-16{
+    padding-right: 16px;
+}
+
+.pdr-32{
+    padding-right: 32px;
+}
+
+.pdl-4{
+    padding-left: 4px;
+}
+
+.pdl-8{
+    padding-left: 8px;
+}
+
+.pdl-16{
+    padding-left: 16px;
+}
+
+.pdl-32{
+    padding-left: 32px;
+}
+
+.pd-4{
+    padding: 4px;
+}
+
+.pd-8{
+    padding: 8px
+}
+
+.pd-16{
+    padding: 16px
+}
+
+.pd-32{
+    padding: 32px;
+}
+
+.gap-4{
+    gap: 4px;
+}
+
+.gap-8{
+    gap: 12px;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.gap-32{
+    gap: 32px;
+}
+
+.link {
+    color: var(--link);
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-bolder{
+    font-weight: bolder;
+}
+
+.text-light{
+    font-weight: light;
+}
+
+.text-lighter{
+    font-weight: lighter;
+}
+
+.text-wrap{
+    text-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-3xl{
+    font-size: 1.875rem;
+}
+
+.text-2xl{
+    font-size: 1.5rem;
+}
+
+.text-1xl{
+    font-size: 1rem;
+}
+
+.text-l{
+    font-size: 0.75rem;
+}
+
+.text-m{
+    font-size: 0.5rem;
+}
+
+.text-s{
+    font-size: 0.3rem;
+}
+
+.note{
+    font-size: 11px;
+    color: var(--second-foreground);
+}
+
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-auto{
+    flex: auto;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: start;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.items-start{
+    align-items: start;
+}
+
+p, a, li, span, h1{
+    word-break: break-all;
+    white-space: normal;
+}
+
+.text-truncate{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.md-row{
+    flex-direction: row;
+}
+
+.md-column {
+    flex-direction: column;
+}
+
+@media (max-width: 1028px){
+    .md-row{
+        flex-direction: column;
+    }
+
+    .md-column {
+        flex-direction: row;
+    }
+}
+
+
