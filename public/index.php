@@ -5,7 +5,6 @@ include_once dirname(__DIR__). "/app/autoload.php";
 use boot\Application;
 use app\controller\SiteController;
 use app\controller\AuthController;
-use app\controller\ProfileController;
 
 $pathEnv = dirname(__DIR__). "/.env";
 
